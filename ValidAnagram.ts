@@ -18,3 +18,14 @@ function isAnagram(s: string, t: string): boolean {
 }
 
 console.log(isAnagram("rat", "tar"));
+
+// Python:
+//  def isAnagram(self, s, t):
+       
+//       if len(s) != len(t):
+//           return False
+
+//       if sorted(s) == sorted(t):
+//           return True
+//       else:
+//           return False
